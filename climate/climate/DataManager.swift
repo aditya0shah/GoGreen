@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Firebase
+import FirebaseFirestore
 
 
 class DataManager: ObservableObject {
@@ -36,6 +37,16 @@ class DataManager: ObservableObject {
                     let dog = Dog(id: id, breed: breed)
                     self.dogs.append(dog)
                 }
+            }
+        }
+    }
+    
+    func addDog(dogBreed: String){
+        let db = Firestore.firestore()
+        let ref = db.collection("Dogs").document(dogBreed)
+        ref.setData(["breed": dogBreed, "id" : 10]) { error in
+            if let error = error {
+                print(error.localizedDescription)
             }
         }
     }

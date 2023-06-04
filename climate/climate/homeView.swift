@@ -9,6 +9,7 @@ import SwiftUI
 
 struct homeView: View {
     @EnvironmentObject var dataManager: DataManager
+    @State private var showPopup = false
     
     
     var body: some View {
@@ -18,10 +19,14 @@ struct homeView: View {
             }
             .navigationTitle("Dogs")
             .navigationBarItems(trailing: Button(action: {
+                showPopup.toggle()
                 //add
             }, label: {
                 Image(systemName: "plus")
             }))
+            .sheet(isPresented: $showPopup){
+                newDogView()
+            }
         }
     }
 }
@@ -29,5 +34,6 @@ struct homeView: View {
 struct homeView_Previews: PreviewProvider {
     static var previews: some View {
         homeView()
+            .environmentObject(DataManager())
     }
 }

@@ -21,6 +21,7 @@
 		147DC7E22A2C3FCB00C98FF9 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DC7E12A2C3FCB00C98FF9 /* homeView.swift */; };
 		147DC7E42A2C402F00C98FF9 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DC7E32A2C402F00C98FF9 /* Dog.swift */; };
 		147DC7E62A2C415C00C98FF9 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DC7E52A2C415C00C98FF9 /* DataManager.swift */; };
+		147DC7E82A2C4B4600C98FF9 /* newDogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DC7E72A2C4B4600C98FF9 /* newDogView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		147DC7E12A2C3FCB00C98FF9 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
 		147DC7E32A2C402F00C98FF9 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		147DC7E52A2C415C00C98FF9 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		147DC7E72A2C4B4600C98FF9 /* newDogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newDogView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				147DC7E12A2C3FCB00C98FF9 /* homeView.swift */,
 				147DC7E32A2C402F00C98FF9 /* Dog.swift */,
 				147DC7E52A2C415C00C98FF9 /* DataManager.swift */,
+				147DC7E72A2C4B4600C98FF9 /* newDogView.swift */,
 				146FBC672A2C0C53008AF798 /* Assets.xcassets */,
 				146FBC692A2C0C53008AF798 /* climate.entitlements */,
 				146FBC6A2A2C0C53008AF798 /* Preview Content */,
@@ -288,6 +291,7 @@
 			files = (
 				146FBC662A2C0C51008AF798 /* ContentView.swift in Sources */,
 				147DC7E62A2C415C00C98FF9 /* DataManager.swift in Sources */,
+				147DC7E82A2C4B4600C98FF9 /* newDogView.swift in Sources */,
 				146FBC642A2C0C51008AF798 /* climateApp.swift in Sources */,
 				147DC7E42A2C402F00C98FF9 /* Dog.swift in Sources */,
 				147DC7E22A2C3FCB00C98FF9 /* homeView.swift in Sources */,
